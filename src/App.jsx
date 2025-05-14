@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Signin from './component/signin';
+import Signin from './component/Signin';
 import Register from './component/Register';
 import Users from './component/Users';
 import { Toaster } from 'react-hot-toast';
