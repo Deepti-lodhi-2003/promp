@@ -36,7 +36,7 @@ const Register = ({ toggler, setToggler, users, setUsers }) => {
           {...register('name', { required: 'Name is required' })}
           type="text"
           placeholder="Enter your name"
-          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-black'
+          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-white'
         />
         {errors.name && <span className='text-red-500 text-sm'>{errors.name.message}</span>}
 
@@ -44,7 +44,7 @@ const Register = ({ toggler, setToggler, users, setUsers }) => {
           {...register('email', { required: 'Email is required' })}
           type="email"
           placeholder="Enter your email"
-          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-black'
+          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-white'
         />
         {errors.email && <span className='text-red-500 text-sm'>{errors.email.message}</span>}
 
@@ -58,7 +58,7 @@ const Register = ({ toggler, setToggler, users, setUsers }) => {
           })}
           type="password"
           placeholder="********"
-          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-black'
+          className='w-full p-3 mt-4 border border-gray-300 rounded-md text-white'
           autoComplete="new-password"
         />
         {errors.password && <span className='text-red-500 text-sm'>{errors.password.message}</span>}
